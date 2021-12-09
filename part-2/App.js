@@ -2,9 +2,23 @@
 
 const App = () => (
     <div>
-      <Tweet fromUser="Tim" toUser="Tom" date="12/7/2021" message="Hi Tom!" />
-      <Tweet fromUser="Tom" toUser="Tim" date="12/7/2021" message="Hello stranger"/>
-      <Tweet fromUser="Tim" toUser="Tom" date="12/8/2021" message="This is my test tweet"/>
+      <Tweet 
+        username = "tommy"
+        user = "Tom Black"
+        date = { new Date().toDateString() }
+        message = "Hello everybody!"
+       />
+      <Tweet
+        username = "bob"
+        user = "Robert Browny"
+        date = { new Date().toDateString() }
+        message = "This is my test Tweet"
+      />
+      <Tweet 
+        username = "elli" 
+        user = "Eleonora Budnik"
+        date = { new Date().toDateString() }
+        message = "This is my first tweet"/>
     </div>
   )
 

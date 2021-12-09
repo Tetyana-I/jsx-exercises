@@ -18,8 +18,8 @@ const Person = (props) => (
            { props.hobbies ? props.hobbies.map(hobby =>(<li><b>{hobby}</b></li>)) : "No hobbies" }
         </ul>
         <h3> 
-            {props.name.length > 8 ? props.name.slice(0,8) : props.name}, 
-            {+props.age >= 18 ? " please go vote!" : " you must be 18"} 
+            { props.name.length > 8 ? props.name.slice(0,8) : props.name }, 
+            { props.age >= 18 ? " please go vote!" : " you must be 18" } 
         </h3>
     </div>) 
 

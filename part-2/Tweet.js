@@ -4,8 +4,8 @@
 
 const Tweet = (props) => (
     <div>
-        <p>from: <b>{props.fromUser}</b> to: <b>{props.toUser}</b></p> 
-        <p>{props.date}</p> 
+        <b>{props.username}</b>
+        <p>{props.user} -  {props.date}</p> 
         <p><i>{props.message}</i></p> 
         <p> --------- </p>
     </div>
